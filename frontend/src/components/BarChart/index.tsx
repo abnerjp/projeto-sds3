@@ -38,7 +38,6 @@ const BarChart = () => {
     },
   };
 
-
   useEffect(() => {
     axios.get(`${BASE_URL}/sales/success-by-seller`)
       .then(response => {
